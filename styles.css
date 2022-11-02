@@ -120,6 +120,18 @@
   font-weight: 800;
 }
 
+.container .results .Item .author h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .results .Item .author h4 p {
+  margin-right: 5px;
+  color: #000;
+  font-size: 16px;
+}
+
 .container .results .Item .definition p {
   font-size: 16px;
   font-weight: 600;

@@ -84,6 +84,14 @@
             .author{
                 color: rgb(46, 46, 255);
                 font-weight: 800;
+                h4{
+                    display: flex;
+                    p{
+                        margin-right: 5px;
+                        color: #000;
+                        font-size: 16px;
+                    }
+                }
             }
             .definition{
                 p{

@@ -31,7 +31,7 @@ const getData = (searchTerm) => {
                     <p>${item.example}</p>
                 </div>
                 <div class="author">
-                    <h4>${item.author}</h4>
+                    <h4><p>author:</p>${item.author}</h4>
                 </div>
                 <div class="Likes">
                     <p><span>${item.thumbs_up}</span> Likes</p><p><span>${item.thumbs_down}</span> DisLikes</p>
