@@ -5,10 +5,22 @@
     overflow-x: hidden;
 }
 
-.container{
+.App{
     width: 80%;
     margin: 0 auto;
-    .logo-container{
+    .error{
+        margin: 30px 10px;
+    }
+    .loader{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .logocontainer{
         display: flex;
         flex-direction: column-reverse;
         margin: 0 auto;
@@ -16,18 +28,18 @@
         align-items: center;
         justify-content: center;
 
-        .logo-img{
+        .logoimg{
             img{
                 width: 380px;
             }
         }
 
-        .logo-text{
+        .logotext{
             font-size: 1rem;
         }
     }
 
-    .search-container{
+    .searchcontainer{
         width: 100%;
         margin: 10px auto;
         display: flex;
@@ -44,7 +56,7 @@
                     border: 1px solid rgb(46, 46, 255);
                 }
             }
-        .search-icon{
+        .searchicon{
             padding: 5px;
             width: 45px;
             display: flex;
@@ -82,7 +94,7 @@
                 }
             }
             .author{
-                color: rgb(46, 46, 255);
+                color: #2e2eff;
                 font-weight: 800;
                 h4{
                     display: flex;
@@ -107,8 +119,17 @@
                 display: flex;
                  justify-content: space-between;
                  width: 95%;
-                 span{
-                     font-weight: 800;
+                 p{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                     img{
+                        width: 25px;
+                        margin-right: 5px;
+                     }
+                     span{
+                         font-weight: 800;
+                     }
                  }
                  margin-top: 10px;
             }
@@ -123,6 +144,8 @@
 .footer{
     border-top: 1px solid #000;
     padding: 20px;
+    width: 100%;
+    margin-top: 80px;
     h4{
         text-align: center;
         font-size: 1.4rem;
@@ -130,21 +153,25 @@
 }
 
 @media(max-width: 900px){
-    .container{
+    .App{
         width: 90%;
-        .logo-container{
+        .loader{
+            margin-top: 200px;
+            margin-bottom: 150px;
+        }
+        .logocontainer{
             flex-direction: row;
             margin-top: 50px;
-            .logo-img{
+            .logoimg{
                 img{
                     width: 70px;
                 }
             }
-            .logo-text{
+            .logotext{
                 font-size: .7rem;
             }
         }
-        .search-container{
+        .searchcontainer{
             input{
                 width: 380px;
             }
