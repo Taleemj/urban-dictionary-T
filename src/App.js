@@ -36,7 +36,7 @@ function App() {
           setsearchTerm={setsearchTerm}
         />
         <center>
-        <h3>Look up a word</h3>
+        <h3>Look up a word / slang</h3>
         </center>
         {/* {isLoading ? (
           <Loader />
