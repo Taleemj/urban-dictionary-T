@@ -17,7 +17,7 @@ function App() {
       {
         headers: {
           "X-RapidAPI-Key":
-            "3ad125af40msha3fe0c6e8a0b18ep15f567jsn1747f4551c09",
+            process.env.REACT_APP_API_KEY,
           "    X-RapidAPI-Host":
             "mashape-community-urban-dictionary.p.rapidapi.com",
         },
